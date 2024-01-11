@@ -1,0 +1,10 @@
+name: TheHungerGamesPlugin
+author: disunion
+main: com.disunion.thehungergames.TheHungerGamesPlugin
+version: 1.1
+api-version: 1.8
+commands:
+  setgamestate:
+    description: Sets the game state according to the first given argument
+    usage: /command <GameState>
+    permission: op
